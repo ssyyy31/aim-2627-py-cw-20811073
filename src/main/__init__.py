@@ -591,7 +591,7 @@ def render_frame(grid, trail=()):
     rows = []
     for y in range(grid.height - 1, -1, -1):
         row = []
-        for x in range(grid.width): 
+        for x in range(grid.width):
             if (x, y) == grid.current_pos:
                 row.append("◉")
             elif (x, y) == grid.enemy_pos:
